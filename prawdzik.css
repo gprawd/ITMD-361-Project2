@@ -1,4 +1,4 @@
-body {  background-color: rgb(104, 32, 204);
+body {  background-color: rgb(233, 39, 39);
     color: rgb(100, 228, 41);
     font-family: Verdana, Arial, sans-serif;
     }
@@ -21,7 +21,7 @@ nav a { text-decoration: none;
     border-width: 3px;
     margin-bottom: 1em;
     }
-nav a:link { color: rgb(41, 167, 36);
+nav a:link { color: rgb(100, 228, 41);
     }
 nav a:visited { color: #52ebeb;
     }
