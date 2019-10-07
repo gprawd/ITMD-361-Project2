@@ -41,7 +41,80 @@ main { padding-left: 2em;
     background-color:#009;
     color:#fff;
     }
+    @media only screen and (max-width: 1024px) {
+        #wrapper { width: 100%;
+            min-width: 0;
+            margin: 0;
+            padding: 0;
+            }
+        body { margin: 0;
+            padding: 0;
+            }
+        header {padding-top: 1px;
+            }
+        .menu nav { float: top ;
+            width: auto;
+            padding-left: 2em;
+            }
+        .menu nav a { padding: 0.2em;
+            margin-left: 0.3em;
+            float: top;
+            width: 23%;
+            }
+        main { padding-top: 2.5em;
+            padding-bottom: 2.5em;
+            padding-left: 1em;
+            padding-right: 1em;
+            margin: 0;
+            font-size: 90%;
+            clear: both;
+            }
+        #hero { width: 100%;
+            height: auto;
+            }
+        h2 { padding: 0em 2em;
+            }
+        h3 { padding: 0em 2em;
+            }  
+        p { padding: 0em 2em;
+            }
+        dl { padding: 0em 2em;
+            }
+        main ul { margin-left: 2em;
+            }  
+        .floatleft {margin-left: 2em;
+            margin-bottom: 1em;
+            }
+        .clear {padding-left: 2em;
+            }
+    }
+    @media only all and (max-width: 768px) {
+        h1 { font-size: 2em;
+            padding-top: 0.25em;
+            padding-left: 1.5em;
+            width: 85%;
+            text-align: center;
+            }
+        .menu nav a {padding: 0.5em;
+            width: 45%;
+            float: left;
+            min-width: 6em;
+            margin-left: 0.5em;
+            float: none;
+            display: none;
+            }
+        main { padding-top: 0;
+            }
+        
 
+
+        #mobile {display: inline;
+            }
+        #desktop { display: none;
+            }
+        
+    }
+    
 
    
     
