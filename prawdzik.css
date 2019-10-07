@@ -17,8 +17,6 @@ ol,ul {
 h1 { padding-top: 50px;
     padding-left: none;
     }
-
-
 main { padding-left: 2em;
     padding-right: 2em;
     margin-left: 170px;
@@ -49,9 +47,6 @@ main { padding-left: 2em;
     color:#fff;
     }
 .resume{
-   
-    margin:0;
-    padding:0;
     text-align:left;
 }
 .resume h1 {
@@ -59,6 +54,16 @@ main { padding-left: 2em;
 }
 .resume a {
     text-align: center;
+}
+.resume h3 {
+    color: rgb(32, 179, 64);
+    }
+.about p {
+    /*text-align: justify;*/
+    padding: 10px;
+    text-justify: right;
+    color: rgb(206, 224, 45);
+
 }
 @media only screen and (max-width: 1024px) {
     #wrapper { width: 100%;
@@ -80,6 +85,7 @@ main { padding-left: 2em;
         float: top;
         width: 23%;
         }
+        
     main { padding-top: 2.5em;
         padding-bottom: 2.5em;
         padding-left: 1em;
