@@ -25,7 +25,9 @@ main { padding-left: 2em;
 .frontpage img{
     border:10px solid #ccc;
 }
-
+.about img{
+    border:10px solid rgb(87, 16, 201);
+}
 .menu{
     border:1px solid #ccc;
     border-width:1px 0;
@@ -60,6 +62,7 @@ main { padding-left: 2em;
 }
 .resume h3 {
     color: rgb(32, 179, 64);
+    text-decoration-line: underline;
     }
 .about p {
     padding: 10px;
