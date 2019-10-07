@@ -1,4 +1,14 @@
-body {  background-color: #3F2860;
-    color: rgb(58, 219, 211);
+body {  background-color: rgb(104, 32, 204);
+    color: rgb(100, 228, 41);
     font-family: Verdana, Arial, sans-serif;
     }
+
+h1 { padding-top: 50px;
+    padding-left: 2em;
+    }
+nav { float: right;
+    width: 160px;
+    font-weight: bold;
+    padding: 1em;
+    }
+    
