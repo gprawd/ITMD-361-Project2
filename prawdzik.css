@@ -11,4 +11,29 @@ nav { float: right;
     font-weight: bold;
     padding: 1em;
     }
+nav a { text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: bold ;
+    padding: 1em;
+    border-style: outset;
+    border-color: #CCCCCC;
+    border-width: 3px;
+    margin-bottom: 1em;
+    }
+nav a:link { color: rgb(41, 167, 36);
+    }
+nav a:visited { color: #52ebeb;
+    }
+nav a:hover { color: #A26100;
+    border: 3px inset #333333;
+    }
+nav ul { list-style-type: none;
+    padding-left: 0;
+    }
+
+
+   
     
+
+        
