@@ -22,7 +22,7 @@ h1 { padding-top: 50px;
 .about img{
     border:10px solid rgb(87, 16, 201);
 }
-.menu{
+nav{
     border:1px solid #ccc;
     border-width:1px 0;
     list-style:none;
@@ -31,17 +31,17 @@ h1 { padding-top: 50px;
     text-align:center;
     font-family: 'Harabara Bold';
     }
-.menu li{
+nav li{
     display:inline;
     }
-.menu a{
+nav a{
     display:inline-block;
     padding:10px;
     text-decoration:none;
     background-color:rgb(211, 197, 208);
     color:rgb(15, 32, 32);
     }
-.menu a:hover {
+nav a:hover {
     background-color:#009;
     color:#fff;
     }
